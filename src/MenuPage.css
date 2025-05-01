@@ -1,0 +1,80 @@
+.product_container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;    
+}
+
+#menupage-content {
+    font-size: large;
+    margin: 10px 0px;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+    text-align: center; /* Center text for better readability */
+}
+
+.Underh2 {
+    margin-top: 10px;
+    font-size: 1.1rem; /* Adjusted for better readability */
+}
+
+/* Responsive Design */
+
+/* For tablets and medium-sized devices (max-width: 1024px) */
+@media (max-width: 1024px) {
+    .product_container {
+        gap: 10px; /* Reduce gap to fit items better on smaller screens */
+    }
+
+    #menupage-content {
+        padding: 15px;
+    }
+
+    h2 {
+        font-size: 1.8rem; /* Adjust font size for better readability */
+    }
+
+    .Underh2 {
+        font-size: 1rem;
+    }
+}
+
+/* For mobile devices (max-width: 768px) */
+@media (max-width: 768px) {
+    .product_container {
+        gap: 8px;
+        justify-content: space-between; /* Space out items better on mobile */
+    }
+
+    #menupage-content {
+        padding: 10px;
+    }
+
+    h2 {
+        font-size: 1.5rem; /* Smaller heading on mobile */
+    }
+
+    .Underh2 {
+        font-size: 0.95rem;
+    }
+}
+
+/* For small mobile devices (max-width: 480px) */
+@media (max-width: 480px) {
+    .product_container {
+        flex-direction: column; /* Stack items vertically */
+        gap: 10px;
+    }
+
+    #menupage-content {
+        padding: 8px;
+    }
+
+    h2 {
+        font-size: 1.3rem;
+    }
+
+    .Underh2 {
+        font-size: 0.9rem;
+    }
+}

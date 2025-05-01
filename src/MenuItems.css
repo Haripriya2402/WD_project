@@ -1,0 +1,214 @@
+.product {
+    width: 300px;
+    height: 400px;
+    
+    border-radius: 10px;
+    background-color: #fff;
+    margin-top: 30px;
+    overflow: hidden;
+    position: relative;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product:hover {
+    transform: scale(1.02);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.product .image {
+    width: 300px;
+    height: 200px;
+    overflow: visible;
+}
+
+.product .image img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.menu-details {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-height: 250px;
+    overflow: hidden;
+}
+
+.menu-food {
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.menu-des {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 10px;
+    line-height: 1.2rem;
+    max-height: 2.4rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+}
+
+.menu-price {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #d9534f;
+    margin-bottom: 15px;
+    white-space: nowrap;
+}
+
+.menu-btn {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.buy-btn, .addcart-btn, .btnremove {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.addcart-btn {
+    background-color: #007bff;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+.addcart-btn:hover {
+    background-color: #0056b3;
+}
+
+.btnremove {
+    background-color: #dc3545;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+.btnremove:hover {
+    background-color: #c82333;
+}
+
+.menu-itemcount {
+    font-size: 1rem;
+    padding: 0px;
+    margin: 0px;
+    font-weight: bold;
+}
+
+.menu-plusbtn, .menu-minusbtn {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.menu-inc {
+    position: absolute;
+    right: 3px;
+    top: 148px;
+    display: flex;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.food_counter {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 6px;
+    background-color: #fff;
+    border-radius: 50px;
+}
+
+.food_counter img {
+    width: 30px;
+}
+
+/* Add media query for responsiveness */
+
+/* For tablets and medium-sized devices (max-width: 1024px) */
+@media (max-width: 1024px) {
+    .product {
+        width: 250px; /* Reduce product card width */
+        height: 380px;
+    }
+
+    .product .image {
+        width: 250px;
+        height: 180px; /* Adjust image height */
+    }
+
+    .menu-food {
+        margin-top: 20px;
+        font-size: 1.2rem; /* Adjust font size */
+    }
+
+    .menu-price {
+        font-size: 1.1rem;
+    }
+}
+
+/* For mobile devices (max-width: 768px) */
+@media (max-width: 768px) {
+    .product {
+        width: 49%; /* Full width for mobile */
+        height: auto; /* Let height adjust naturally */
+        margin: 15px 0;
+    }
+
+    .product .image {
+        width: 100%;
+        height: 200px; /* Keep the image responsive */
+    }
+
+    .menu-details {
+        padding: 8px;
+    }
+
+    .menu-food {
+        margin-top: 20px;
+        font-size: 1.1rem;
+    }
+
+    .menu-price {
+        font-size: 1rem;
+    }
+}
+
+/* For small mobile devices (max-width: 480px) */
+@media (max-width: 480px) {
+    .product {
+        width: 100%;
+        height: auto;
+        margin: 15px 0;
+    }
+
+    .product .image {
+        height: 180px; /* Adjust image height for smaller screens */
+    }
+
+    .menu-food {
+        margin-top: 20px;
+        font-size: 1rem;
+    }
+
+    .menu-price {
+        font-size: 0.9rem;
+    }
+
+    .menu-btn {
+        gap: 8px; /* Reduce gap between buttons */
+    }
+}

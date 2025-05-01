@@ -1,0 +1,149 @@
+.header {
+    height: 40vh; /* Adjust height for better responsiveness */
+    margin: 20px auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    position: relative; 
+    transition: background-image 0.5s ease-in-out;
+}
+
+.header-contents {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1vh; /* Use vh for responsive gap */
+    min-width: 100%;
+    bottom: 10%;
+    left: 3vw;
+    animation: fadeIn 2s;
+}
+
+.header-contents h2 {
+    font-weight: 500;
+    color: white;
+    font-size: clamp(24px, 6vw, 50px); /* Use clamp for responsive font size */
+    text-shadow: 0 0 5px #090909,   
+               0 0 10px #1e1c1c,  
+               0 0 20px #302e2e, 
+               0 0 40px rgb(0, 0, 0),     
+               0 0 80px rgb(0, 0, 0),     
+               0 0 120px rgb(0, 0, 0);    
+}
+
+.header-contents p {
+    color: white;
+    font-size: clamp(12px, 2vw, 18px); /* Responsive font size */
+    text-shadow: 0 0 5px #090909,   
+               0 0 10px #020202,  
+               0 0 20px #302e2e,  
+               0 0 40px rgb(0, 0, 0),     
+               0 0 80px rgb(0, 0, 0),     
+               0 0 120px rgb(0, 0, 0); 
+    width: 90%; /* Adjust width here */
+}
+
+.header-contents button {
+    border: none;
+    color: #747474;
+    font-weight: 500;
+    padding: 10px 23px;
+    background-color: white;
+    font-size: clamp(10px, 2vw, 16px); /* Make button text responsive */
+    border-radius: 50px;
+}
+
+/* Media Queries for Responsiveness */
+
+/* For screens greater than 1024px */
+@media only screen and (min-width: 1024px) {
+    .header {
+        height: 50vh; /* Increase height for larger screens */
+    }
+    .header-contents {
+        max-width: 40%; /* Decrease width for better spacing */
+        left: 5vw; /* Adjust position slightly */
+    }
+    .header-contents h2 {
+        font-size: clamp(22px, 5vw, 45px); /* Adjust headline size */
+    }
+    .header-contents p {
+        /* font-size: clamp(14px, 2.5vw, 18px); Adjust paragraph text size */
+        width: 80%;
+    }
+}
+
+/* For tablets (max-width: 1024px) */
+@media only screen and (max-width: 1024px) {
+    .header {
+        height: 270px; /* Adjust height for tablet-sized devices */
+    }
+    .header-contents {
+        max-width: 100%; /* Increase width for smaller screens */
+        left: 5vw; /* Adjust position */
+    }
+    .header-contents h2 {
+        font-size: clamp(18px, 4vw, 35px); /* Adjust headline size */
+    }
+    .header-contents p {
+        font-size: clamp(14px, 2.5vw, 18px); 
+    }
+}
+
+
+/* For mobile devices (max-width: 768px) */
+@media only screen and (max-width: 768px) {
+    .header {
+        height: 300px; /* Adjust height for mobile devices */
+    }
+    .header-contents {
+        max-width: 90%; /* Further increase max-width on small screens */
+        left: 5vw;
+        bottom: 15%; /* Adjust bottom positioning */
+    }
+    .header-contents h2 {
+        font-size:18px; /* Adjust headline size for mobile */
+    }
+    .header-contents p {
+        font-size:12px;
+        width: 90%;
+    }
+    .header-contents button {
+        padding: 8px 20px; /* Adjust padding for smaller screens */
+        font-size: clamp(10px, 3vw, 14px); /* Adjust button font size */
+    }
+}
+
+/* For very small mobile devices (max-width: 480px) */
+@media only screen and (max-width: 480px) {
+    .header {
+        height: 350px; /* Use full viewport height for small devices */
+    }
+
+    .header-contents {
+        max-width: 100%; /* Full width for small devices */
+        left: 0;
+        bottom: 10%; /* Adjust positioning */
+        padding: 0 10px; /* Add some padding */
+    }
+
+    .header-contents h2 {
+        font-size: clamp(18px, 8vw, 35px); /* Responsive heading size */
+        text-align: center; /* Center text on small screens */
+    }
+
+    .header-contents p {
+        font-size: clamp(12px, 4vw, 16px); /* Responsive paragraph size */
+        text-align: center; /* Center text */
+        width: 100%;
+    }
+
+    .header-contents button {
+        padding: 12px 30px; /* Adjust button size for small screens */
+        font-size: clamp(10px, 4vw, 14px);
+        display: block;
+        margin: 0 auto; /* Center the button */
+    }
+}

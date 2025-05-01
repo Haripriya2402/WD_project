@@ -1,0 +1,77 @@
+.body {
+    margin: 10px 100px;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/* Responsive Design for Tablets and Mobile Devices */
+
+/* For tablets and medium-sized devices (screen width less than 1024px) */
+@media (max-width: 1024px) {
+    .body {
+        margin: 10px 50px; /* Reduce margin for medium screens */
+    }
+}
+
+/* For mobile devices (screen width less than 768px) */
+@media (max-width: 768px) {
+    .body {
+        margin: 10px 20px; /* Further reduce margin for small screens */
+    }
+}
+
+/* For very small mobile devices (screen width less than 480px) */
+@media (max-width: 480px) {
+    .body {
+        margin: 5px 10px; /* Minimal margin for very small screens */
+    }
+}
+
+/* Landscape orientation for tablets and medium-sized devices */
+@media (max-width: 1024px) and (orientation: landscape) {
+    .body {
+        margin: 10px 40px; /* Adjust margin for landscape tablets */
+    }
+}
+
+/* Portrait orientation for tablets and medium-sized devices */
+@media (max-width: 1024px) and (orientation: portrait) {
+    .body {
+        margin: 10px 50px; /* Slightly larger margin for portrait tablets */
+    }
+}
+
+/* Landscape orientation for mobile devices */
+@media (max-width: 768px) and (orientation: landscape) {
+    .body {
+        margin: 10px 15px; /* Adjust margin for landscape mobiles */
+    }
+}
+
+/* Portrait orientation for mobile devices */
+@media (max-width: 768px) and (orientation: portrait) {
+    .body {
+        margin: 10px 20px; /* Standard margin for portrait mobiles */
+    }
+}
+
+/* For very small mobile devices in landscape */
+@media (max-width: 480px) and (orientation: landscape) {
+    .body {
+        margin: 5px 5px; /* Minimal margin for small landscape screens */
+    }
+}
+
+/* For very small mobile devices in portrait */
+@media (max-width: 480px) and (orientation: portrait) {
+    .body {
+        margin: 5px 10px; /* Minimal margin for small portrait screens */
+    }
+}

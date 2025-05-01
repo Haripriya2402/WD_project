@@ -1,0 +1,182 @@
+[
+  {
+    "id": 33,
+    "name": "Margherita Pizza",
+    "amt": 250,
+    "shop": "Pizza Hub",
+    "ftype": "veg",
+    "pic": "Margherita_Pizza.jpg",
+    "latest": "Yes"
+  },
+  {
+    "id": 34,
+    "name": "Chicken Burger",
+    "amt": 180,
+    "shop": "Burger Point",
+    "ftype": "non-veg",
+    "pic": "Chicken_Burger.jpg",
+    "latest": "Yes"
+  },
+  {
+    "id": 35,
+    "name": "Pasta Alfredo",
+    "amt": 300,
+    "shop": "Pasta Delight",
+    "ftype": "veg",
+    "pic": "Pasta_Alfredo.jpg",
+    "latest": "No"
+  },
+  {
+    "id": 36,
+    "name": "Paneer Tikka",
+    "amt": 350,
+    "shop": "Indian Flavors",
+    "ftype": "veg",
+    "pic":"Paneer_Tikka.jpg",
+    "latest": "Yes"
+  },
+  {
+    "id": 37,
+    "name": "Grilled Chicken",
+    "amt": 450,
+    "shop": "Grill House",
+    "ftype": "non-veg",
+    "pic": "Grilled_Chicken.jpg",
+    "latest": "No"
+  },
+  {
+    "id": 38,
+    "name": "Veggie Wrap",
+    "amt": 150,
+    "shop": "Wraps & Rolls",
+    "ftype": "veg",
+    "pic": "Veggie_Wrap.jpg",
+    "latest": "No"
+  },
+  {
+    "id": 39,
+    "name": "BBQ Chicken Wings",
+    "amt": 400,
+    "shop": "Wing Zone",
+    "ftype": "non-veg",
+    "pic": "BBQ_Chicken_Wings.jpg",
+    "latest": "Yes"
+  },
+  {
+    "id": 40,
+    "name": "Sushi Platter",
+    "amt": 600,
+    "shop": "Sushi Corner",
+    "ftype": "non-veg",
+    "pic": "Sushi_Platter.jpg",
+    "latest": "No"
+  },
+  {
+    "id": 41,
+    "name": "Veg Biryani",
+    "amt": 220,
+    "shop": "Biryani Palace",
+    "ftype": "veg",
+    "pic": "Veg_Biryani.jpg",
+    "latest": "Yes"
+  },
+  {
+    "id": 42,
+    "name": "Butter Chicken",
+    "amt": 380,
+    "shop": "Indian Spice",
+    "ftype": "non-veg",
+    "pic":"Butter_Chicken.jpg",
+    "latest": "No"
+  },
+  {
+    "id": 43,
+    "name": "Chole Bhature",
+    "amt": 180,
+    "shop": "Punjabi Dhaba",
+    "ftype": "veg",
+    "pic": "Chole_Bhature.png",
+    "latest": "Yes"
+  },
+  {
+    "id": 44,
+    "name": "Pepperoni Pizza",
+    "amt": 320,
+    "shop": "Pizza Express",
+    "ftype": "non-veg",
+    "pic": "Pepperoni_Pizza.jpg",
+    "latest": "No"
+  },
+  {
+    "id": 45,
+    "name": "Falafel Wrap",
+    "amt": 200,
+    "shop": "Middle East Bites",
+    "ftype": "veg",
+    "pic": "Falafel_Wrap.jpg",
+    "latest": "Yes"
+  },
+  {
+    "id": 46,
+    "name": "Tandoori Chicken",
+    "amt": 400,
+    "shop": "Grill Master",
+    "ftype": "non-veg",
+    "pic": "Tandoori_Chicken.jpg",
+    "latest": "Yes"
+  },
+  {
+    "id": 47,
+    "name": "Fish Tacos",
+    "amt": 280,
+    "shop": "Taco Shack",
+    "ftype": "non-veg",
+    "pic": "Fish_Tacos.jpg",
+    "latest": "No"
+  },
+  {
+    "id": 48,
+    "name": "Paneer Butter Masala",
+    "amt": 300,
+    "shop": "Spice Route",
+    "ftype": "veg",
+    "pic": "Paneer_Butter_Masala.jpg",
+    "latest": "No"
+  },
+  {
+    "id": 49,
+    "name": "Mushroom Risotto",
+    "amt": 350,
+    "shop": "Italian Feast",
+    "ftype": "veg",
+    "pic": "Mushroom_Risotto.jpg",
+    "latest": "Yes"
+  },
+  {
+    "id": 50,
+    "name": "Beef Steak",
+    "amt": 500,
+    "shop": "Steak House",
+    "ftype": "non-veg",
+    "pic": "Beef_Steak.jpg",
+    "latest": "No"
+  },
+  {
+    "id": 51,
+    "name": "Hummus & Pita",
+    "amt": 150,
+    "shop": "Mediterranean Kitchen",
+    "ftype": "veg",
+    "pic": "Hummus_Pita.jpg",
+    "latest": "Yes"
+  },
+  {
+    "id": 52,
+    "name": "Prawn Curry",
+    "amt": 400,
+    "shop": "Seafood Delight",
+    "ftype": "non-veg",
+    "pic": "Prawn_Curry.jpg",
+    "latest": "Yes"
+  }
+]
