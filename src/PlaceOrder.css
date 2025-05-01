@@ -1,0 +1,5 @@
+.is-invalid {
+    border: 1px solid red !important;
+    background-color: #fff0f0;
+  }
+  

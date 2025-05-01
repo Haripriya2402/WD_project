@@ -12,6 +12,8 @@ import { Footer } from './Footer'
 import { PlaceOrder } from './PlaceOrder'
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import '../node_modules/bootstrap-icons/font/bootstrap-icons.json'
+import { Confirmation } from './Confirmation'
+import { ModeOfPay } from './ModeOfPay'
 
 
 export const OrderFood = () => {
@@ -32,6 +34,8 @@ export const OrderFood = () => {
               {/* <Route path="/signup" element={<SignupPage/>} /> */}
               <Route path="/Cart" element={<CartPage/>} />
               <Route path="/PlaceOrder" element={<PlaceOrder/>}/>
+              <Route path="/payment" element={<ModeOfPay/>}/>
+              <Route path="/confirmation" element={<Confirmation/>}/>
             </Routes>
             </div>
           <Footer/>
